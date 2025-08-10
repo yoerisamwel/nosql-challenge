@@ -1,14 +1,12 @@
 # nosql-challenge
 
-This project was part of the GWU bootcamp. We were introduced to NoSQL databases and their applications in a series of classes and this project was intended to summarize everything we had learned in the classes.
+Hands-on project exploring NoSQL database concepts using MongoDB.
+Includes data ingestion, cleaning, updates, and analysis with Python in Jupyter Notebooks.
 
-The project consisted of two Jupiter Notebook sections and setting up the local MongoDB on your local computer. 
+This project was completed as part of the GWU Data Analytics Bootcamp’s NoSQL module. It demonstrates setting up and working with a local MongoDB instance, loading CSV data into a database, and performing CRUD operations. The workflow is split into two Jupyter Notebooks:
 
-Jupiter Notebook 1: Eat Safe Love
-In this notebook I setup the MongoDB. Rad several check to make sure the CSV containing the data was correctly loaded to the MongoDB under uk_food. After which a new restaurant was inserted into the database and the BusinessTypeID was updated. 
-Then I filtered the database on where the local authority name was “Dover”. Updated the Latitude and Longitude datapoints to decimal numbers and confirmed the update went through. I added the 1-5 rating values and changed the data types.
+Database Setup & Data Cleaning – Load data into MongoDB, validate imports, insert and update records, filter by specific criteria, convert data types, and prepare the dataset for analysis.
 
-Jupiter Notebook 2: Eat Safe Love
-I reconnected to the database that was setup in the previous notebook. Then I ran the analysis based on that database. Sorting on the establishments with a score equal to 20 and getting the count. Then sorting on the Rating value and the hygiene score and getting the counts for those parameters as well.
+Data Analysis – Query the database to identify establishments with specific hygiene scores, rating values, and other parameters, applying sorting and filtering logic to extract insights.
 
-Overall I thought it was a very interesting part of the bootcamp. I had not worked with NoSQL databases before and found the concept very interesting and am looking forward to working on projects in my career that utilize and apply NoSQL databases in projects. 
+Would you like me to also rewrite this in a more concise, portfolio-ready style so it fits nicely in a GitHub repo with a professional tone? That would make it even more appealing to recruiters.
